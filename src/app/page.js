@@ -1,4 +1,4 @@
-import TopAnimelist from "@/components/AnimeList"
+import AnimeList from "@/components/AnimeList"
 import Header from "@/components/AnimeList/Header";
 
 const Page = async () => {
@@ -7,10 +7,10 @@ const Page = async () => {
 
   return (
     <>
-      {/* Paling populer */}
+      {/* Top Anime */}
       <section>
         <Header title="Paling Populer" linkTitle="Lihat Semua" linkHref="/populer" />
-        <TopAnimelist api={topAnime} />
+        <AnimeList api={topAnime} />
       </section>
     </>
   )

@@ -1,4 +1,4 @@
-import Animelist from "@/components/AnimeList";
+import AnimeList from "@/components/AnimeList";
 import Header from "@/components/AnimeList/Header";
 
 const Page = async ({ params }) => {
@@ -10,7 +10,7 @@ const Page = async ({ params }) => {
     <>
       <section>
         <Header title={`Pencarian untuk ${keyword}...`} />
-        <Animelist api={searchAnime} />
+        <AnimeList api={searchAnime} />
       </section>
     </>
   )
