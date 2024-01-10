@@ -12,13 +12,13 @@ const InputSearch = () => {
     event.preventDefault();
     const keyword = searchRef.current.value;
 
-    router.push(`/search/${keyword}`);
+    keyword && router.push(`/search/${keyword}`);
   }
 
   const handleSearchEnter = (event) => {
     const keyword = searchRef.current.value;
 
-    { event.key === 'Enter' ? router.push(`/search/${keyword}`) : null }
+    { event.key === 'Enter' ? keyword && router.push(`/search/${keyword}`) : null }
   }
 
   return (
