@@ -11,6 +11,10 @@
   "dependencies": {
     "@phosphor-icons/react": "^2.0.15",
     "next": "14.0.3",
+<<<<<<< HEAD
+=======
+    "next-auth": "^4.24.5",
+>>>>>>> cba5020 (add dashboard)
     "react": "^18",
     "react-dom": "^18",
     "react-youtube": "^10.1.0"

@@ -4,7 +4,11 @@ import React, { useEffect, useState } from "react";
 import HeaderMenu from "@/components/Utilities/HeaderMenu";
 import Pagination from "@/components/Utilities/Pagination";
 import AnimeList from "@/components/AnimeList";
+<<<<<<< HEAD
 import { getAnimeResponse } from "../libs/api-libs";
+=======
+import { getAnimeResponse } from "@/libs/api-libs";
+>>>>>>> cba5020 (add dashboard)
 
 const Page = () => {
   const [page, setPage] = useState(1)

@@ -12,12 +12,22 @@ const InputSearch = () => {
     event.preventDefault();
     const keyword = searchRef.current.value;
 
+<<<<<<< HEAD
+=======
+    if(!keyword || keyword.trim() == "") return
+
+>>>>>>> cba5020 (add dashboard)
     keyword && router.push(`/search/${keyword}`);
   }
 
   const handleSearchEnter = (event) => {
     const keyword = searchRef.current.value;
 
+<<<<<<< HEAD
+=======
+    if(!keyword || keyword.trim() == "") return
+
+>>>>>>> cba5020 (add dashboard)
     { event.key === 'Enter' ? keyword && router.push(`/search/${keyword}`) : null }
   }
 

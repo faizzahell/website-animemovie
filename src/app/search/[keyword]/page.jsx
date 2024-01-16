@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { getAnimeResponse } from "@/app/libs/api-libs";
+=======
+import { getAnimeResponse } from "@/libs/api-libs";
+>>>>>>> cba5020 (add dashboard)
 import AnimeList from "@/components/AnimeList";
 import Header from "@/components/AnimeList/Header";
 
